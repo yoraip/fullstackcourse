@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+<h1>Headline 1</h1>
+
+<form action="/action_page.php" target=_blank method="POST">
+
+    <label for="fname">first name</label> <br>
+    <input type="text" class="border" required id=fname name=fname placeholder="e.g XXX"> <br>
+
+    <label for="last name">last name</label> <br>
+    <input type="text" class="border" required id=lname name=lname placeholder="e.g XXX"><br>
+
+    <label for="email">email</label> <br>
+    <input type="email" required id=email name=email placeholder="xxx@xxx.com"> <br>
+
+    <label for="id">id</label> <br>
+    <input type="number" required id=id name=id min="100000000" max="999999999" placeholder="your id"><br>
+        
+    <label for="gender">gender</label> <br>
+    <input type="radio" name="title" value="man">
+    man
+    <input type="radio" name="title" value="woman">
+    woman<br>
+
+    <label for="text">write something...</label> <br>
+    <textarea name="comment" class="border" form="usrform" placeholder="What's on your mind?"></textarea>
+ 
+<br><button type="submit" id="amazing">submit</button>
+
+</form>
+</body>
+</html>
