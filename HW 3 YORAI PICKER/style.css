@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    margin: 0;
+    justify-content: space-around;
+}
+
+.maintext {
+    max-width: 40%;
+    margin: 2% 0;
+}
+
+.langueges {
+    margin: 0 3px;
+    background-color: rgb(0, 66, 151);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.nav a:hover {
+    background-color: yellow;
+}
+
+#img1 {
+    margin-top: 15%;
+}
+
+.personalinfo {
+    display: flex;
+    background-color:royalblue;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.projects {
+    background-color:cornflowerblue;
+    margin: 0 auto;
+}
+
+.project1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.project2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.txt {
+    margin-left: 2%;
+    font-size: small;
+}
+
+
+footer {
+    background-color: rgb(76, 194, 202);
+    padding-bottom: 2%;
+    padding-top: 2%;
+    bottom: 0%;
+    flex-direction: column;
+    margin:0 auto ;
+    display: flex;
+    justify-self: center;
+}
+
+.txtfooter {
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.input { 
+display: block;
+margin: 0 auto;
+}
