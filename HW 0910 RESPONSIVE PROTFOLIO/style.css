@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    background-color: rgb(223, 200, 200);
+    color: rgb(82, 57, 57);
+}
+    
+.dark-mode {
+    background-color:#1F2933;
+    color: #bac0d8;
+}
+
+#switch {
+    display: none;
+}
+
+label {
+	cursor: pointer;
+	width: 100px;
+	height: 50px;
+	background: grey;
+	display: inline-block ;
+	border-radius: 100px;
+	position: relative;
+    margin-left: 87%;
+    margin-top: 5px;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #bada55;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 90px;
+}
+
+#hr1 {
+    width: 1rem;
+}
+
+#hr2 {
+    width: 0.7rem;
+}
+
+#hr3 {
+    width: 1rem;
+}
+
+a:link {
+    color:darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    display: flex;
+    justify-content: center;
+}
+
+#img3 {
+    display: flex;
+    justify-content: center;
+}
+
+#divhr {
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(184, 89, 6), rgb(209, 123, 5)  );
+    border-radius: 15px;
+    width: 50px;
+    position: absolute;
+    left: 3px;
+    top: 5px; 
+}
+
+#divlist {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    animation: divliston 1s;
+    display: none;
+}
+
+@keyframes divliston {
+    from {opacity: 0;}
+    to {opacity: 100;}        
+}
+
+#divlist li {
+    padding: 10px 0;
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.maintext h1 {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+#responlang {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    font-style:oblique;
+    font-size: 23px;
+}
+
+.langueges {
+    margin: 0 3px;
+    background-color: rgb(0, 66, 151);
+    color: whitesmoke;
+    font-size: 17px;
+    cursor:cell;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#youtube {
+    display: flex;
+    justify-content: center;
+}
+
+/* DESKTOP */
+
+@media only screen and ( min-width:1024px ) {
+ body {
+    margin: 0;
+    background-color: rgb(223, 200, 200);
+    color: rgb(82, 57, 57);
+}
+    
+.dark-mode {
+    background-color:#1F2933;
+    color: #bac0d8;
+}
+
+#switch {
+    display: none;
+}
+
+label {
+	cursor: pointer;
+	width: 100px;
+	height: 50px;
+	background: grey;
+	display: inline-block ;
+	border-radius: 100px;
+	position: relative;
+    margin-left: 87%;
+    margin-top: 5px;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 15px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: #bada55;
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 90px;
+}
+
+.navclass {
+    cursor: pointer;
+}
+
+#hr1 {
+    width: 1rem;
+}
+
+#hr2 {
+    width: 0.7rem;
+}
+
+#hr3 {
+    width: 1rem;
+}
+
+#divhr {
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(184, 89, 6), rgb(209, 123, 5)  );
+    border-radius: 15px;
+    width: 50px;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+}
+
+#divlist {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    animation: divliston 1s;
+    display: none;
+}
+
+#divlist a:hover {
+    font-weight:lighter;
+}
+
+@keyframes divliston {
+    from {opacity: 0;}
+    to {opacity: 100;}        
+}
+
+#divlist li {
+    padding: 60px 0;
+}
+
+a:link {
+    color:rgb(146, 40, 40);
+    text-decoration: none;
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.maintext {
+    max-width: 40%;
+    margin: 2% 0;
+}
+
+.maintext h1 {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.langueges {
+    margin: 0 6px;
+    color: whitesmoke;
+    font-size: 17px;
+    cursor:cell;
+}
+
+#responlang span:hover {
+font-size: 23px;
+}
+
+#img1 {
+    margin-top: 15%;
+}
+
+.personalinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+.contact a:hover {
+    font-size: 25px;
+}
+
+.project1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+.project2 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.txt {
+    margin-left: 2%;
+    font-size: 15px;
+}
+
+footer {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    bottom: 0%;
+    flex-direction: column;
+    margin:0 auto ;
+    display: flex;
+    justify-self: center;
+}
+
+.txtfooter {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.input { 
+display: block;
+margin: 0 auto;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+#youtube {
+    display: flex;
+    justify-content: center;
+}
+    #arr {
+    padding: 30px;
+    }
+}
